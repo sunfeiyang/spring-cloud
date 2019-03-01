@@ -1,4 +1,4 @@
-package com.sunfy.sayhello;
+package com.sunfy;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
