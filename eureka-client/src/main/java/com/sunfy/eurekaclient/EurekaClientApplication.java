@@ -25,11 +25,12 @@ public class EurekaClientApplication {
 
 /**
  * 一个服务类
+ * 通过http协议通信的服务
  */
 @RestController
 class ServiceInstanceRestController {
 
-    // 客户端API
+    // 客户端API 可以访问服务器，直接与服务器通信
     @Autowired
     private DiscoveryClient discoveryClient;
 
