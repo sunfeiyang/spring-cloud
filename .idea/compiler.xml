@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="book" />
         <module name="bookstore" />
         <module name="eureka-client" />
         <module name="eureka-service" />
+        <module name="gateway" />
+        <module name="reading" />
         <module name="say-hello" />
         <module name="say-hello (1)" />
         <module name="say-hello2" />
@@ -17,9 +20,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="book" target="1.8" />
       <module name="bookstore" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-service" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="reading" target="1.8" />
       <module name="say-hello" target="1.8" />
       <module name="say-hello (1)" target="1.8" />
       <module name="say-hello2" target="1.8" />
@@ -29,9 +35,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="book" options="" />
       <module name="bookstore" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-service" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="reading" options="-parameters" />
       <module name="say-hello" options="-parameters" />
       <module name="say-hello (1)" options="-parameters" />
       <module name="say-hello2" options="-parameters" />
