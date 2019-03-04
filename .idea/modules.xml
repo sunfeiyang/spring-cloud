@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-service/eureka-service.iml" filepath="$PROJECT_DIR$/eureka-service/eureka-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/say-hello/say-hello.iml" filepath="$PROJECT_DIR$/say-hello/say-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/say-hello2/say-hello (1).iml" filepath="$PROJECT_DIR$/say-hello2/say-hello (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/say-hello2/say-hello2.iml" filepath="$PROJECT_DIR$/say-hello2/say-hello2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
     </modules>
