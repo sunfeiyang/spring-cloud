@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bookstore" />
         <module name="eureka-client" />
         <module name="eureka-service" />
         <module name="say-hello" />
@@ -16,6 +17,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bookstore" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-service" target="1.8" />
       <module name="say-hello" target="1.8" />
@@ -27,6 +29,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bookstore" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-service" options="-parameters" />
       <module name="say-hello" options="-parameters" />

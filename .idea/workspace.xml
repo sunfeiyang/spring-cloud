@@ -125,49 +125,6 @@
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="user2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="user2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="user2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="user2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="user2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sunfy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="user2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -214,6 +171,13 @@
     <option name="contentProportion" value="0.15638529" />
   </component>
   <component name="RunManager" selected="Spring Boot.SayHelloApplication-6664">
+    <configuration name="BookstoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bookstore" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sunfy.BookstoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sunfy.eurekaclient.EurekaClientApplication" />
@@ -295,6 +259,7 @@
       <item itemvalue="Spring Boot.SayHello2Application" />
       <item itemvalue="Spring Boot.SayHelloApplication" />
       <item itemvalue="Spring Boot.User2Application" />
+      <item itemvalue="Spring Boot.BookstoreApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -321,7 +286,7 @@
       <workItem from="1551603101419" duration="1024000" />
       <workItem from="1551663242122" duration="8273000" />
       <workItem from="1551678018117" duration="358000" />
-      <workItem from="1551678458438" duration="3446000" />
+      <workItem from="1551678458438" duration="4206000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1550739745204</created>
@@ -407,11 +372,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551685147396</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Eureka服务中心获取列">
+      <created>1551685290389</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1551685290389</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29634000" />
+    <option name="totallyTimeSpent" value="30394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,7 +396,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -441,7 +412,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49946696" visible="true" weight="0.44034708" />
+      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49946696" visible="true" weight="0.30260304" />
       <window_info anchor="bottom" id="Spring" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
