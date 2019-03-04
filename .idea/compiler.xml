@@ -12,6 +12,7 @@
         <module name="say-hello (1)" />
         <module name="say-hello2" />
         <module name="user" />
+        <module name="user2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="say-hello (1)" target="1.8" />
       <module name="say-hello2" target="1.8" />
       <module name="user" target="1.8" />
+      <module name="user2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -31,6 +33,7 @@
       <module name="say-hello (1)" options="-parameters" />
       <module name="say-hello2" options="-parameters" />
       <module name="user" options="-parameters" />
+      <module name="user2" options="-parameters" />
     </option>
   </component>
 </project>
