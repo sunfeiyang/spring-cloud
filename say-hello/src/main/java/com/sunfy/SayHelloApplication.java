@@ -22,7 +22,9 @@ public class SayHelloApplication {
         List<String> greetings = Arrays.asList("hello1" ,"hello2" ,"hello3") ;
         Random r = new Random() ;
         // 每次调用时，随机返回字符串中的一个
-        return greetings.get(r.nextInt(3)) ;
+        String str = greetings.get(r.nextInt(3)) ;
+        System.out.println(str);
+        return str ;
     }
 
     @RequestMapping("/")
